@@ -1,0 +1,100 @@
+.header-post{
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    justify-content: space-between;
+}
+
+.icon-header:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.infos-post{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-weight: 600;
+}
+
+.infos-post p, .legend{
+    cursor: pointer;
+}
+
+.legend span{
+    font-weight: 600;
+    cursor: pointer
+}
+
+.img-user-post{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.img-post img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.footer-post{
+    padding: 10px 15px;
+}
+
+.icons-post{
+    display: flex;
+    justify-content: space-between;
+}
+.icons-post .icons-1{
+    display: flex;
+    gap: 16px;
+}
+
+.icon{
+    cursor: pointer;
+}
+.icon:hover{
+    opacity: 0.6;
+}
+
+.like{
+    margin-top: 6px;
+}
+
+.like span{
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.legend{
+    margin: 6px 0 3px;
+}
+
+.time-post time{
+    font-size: 11px;
+    color: var(--secondary);
+}
+
+.comment{
+    border-top: 1px solid var(--border-secondary);
+    margin-top: 8px;
+    display: flex;
+}
+
+.fake-comment{
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    gap: 16px
+}
+.fake-comment input{
+    font-size: 16px;
+}
+
+.comment button{
+    color: var(--quartary);
+    font-weight: 500;
+    cursor: pointer;
+}
